@@ -1,16 +1,18 @@
 body {
     font-weight: 400;
     background-color: #000;
+    font-family: Poppins, sans-serif;
   }
   
   main {
-    padding: 50px;
+    padding: 20px;
   }
   
   main h1 {
     color: white;
     font-weight: 400;
     text-align: center;
+    font-family: Poppins, sans-serif;
   }
 
   .homeH1:hover {
@@ -19,7 +21,7 @@ body {
 
   a{
     text-decoration:none;
-    color: rgb(255, 64, 0);
+    color: rgb(255, 119, 0);
     }
 
     .rounded-image {
@@ -165,20 +167,18 @@ body {
   .row {
     float: right;
     width: 50%;
-    padding: 30px;
+    padding: 5px;
     height: 200px; 
   }
 
-  .column {
+  .column h3{
     margin: 0 auto;
     width: 50%; 
     padding: 70px;
+    color: #fff;
+    text-align:start;
   }
 
-  h3 {
-    color: #fff;
-    text-align: justify;
-  }
 
   .content {
   max-width: 1200px;
@@ -189,13 +189,6 @@ body {
   color: #fff;
   }
 
-  .content h1{
-    text-align: center;
-    padding: 60px;
-    font-size: 30px;
-
-  }
-
   .crypto {
     color: rgb(225, 72, 72);
     
@@ -203,4 +196,12 @@ body {
 
   .programming {
     color: aqua;
+  }
+
+  .informational {
+    position: relative;
+    top: -50px;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
   }
