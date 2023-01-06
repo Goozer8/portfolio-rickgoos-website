@@ -1,0 +1,206 @@
+body {
+    font-weight: 400;
+    background-color: #000;
+  }
+  
+  main {
+    padding: 50px;
+  }
+  
+  main h1 {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .homeH1:hover {
+    color: grey;
+  }
+
+  a{
+    text-decoration:none;
+    color: rgb(255, 64, 0);
+    }
+
+    .rounded-image {
+      border-radius: 10%;
+    }
+
+  nav {
+    display: block;
+    position: fixed;
+    background-color: black;
+    width: 220px;
+    top: 0;
+    left: -300px;
+    bottom: 0;
+    transition: all 0.5s;
+    z-index: 3;
+    opacity: 0;
+  }
+  
+  .open nav {
+    left: 0;
+    opacity: 1;
+  }
+  
+  nav .inner {
+    padding: 25px;
+  }
+  
+  nav .inner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav .inner ul li {
+    margin: 0;
+    border-bottom: 1px solid white;
+  }
+  
+  nav .inner ul li a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    padding: 1rem;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  nav .inner ul li a:hover {
+    background: grey;
+  }
+  
+  .toggle-btn {
+    display: block;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    z-index: 3;
+    cursor: pointer;
+  }
+  
+  .toggle-btn span {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.5s;
+    border-radius: 4px;
+  }
+  
+  .toggle-btn span:nth-child(1) {
+    top: 4px;
+  }
+  .toggle-btn span:nth-child(2) {
+    top: 14px;
+  }
+  .toggle-btn span:nth-child(3) {
+    bottom: 4px;
+  }
+  
+  .open .toggle-btn span {
+    background-color: #fff;
+  }
+  
+  .open .toggle-btn span:nth-child(1) {
+    transform: translateY(10px) rotate(-315deg);
+  }
+  
+  .open .toggle-btn span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .open .toggle-btn span:nth-child(3) {
+    transform: translateY(-10px) rotate(315deg);
+  }
+  
+  #mask {
+    display: none;
+    transition: all 0.5s;
+  }
+  
+  .open #mask {
+    display: block;
+    background: darkslategrey;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    opacity: 0.8;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .social-menu {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    margin: 5px 2px;
+    padding: 0;
+  }
+  
+  .social-menu li {
+    display: inline-block;
+  }
+  
+  .social-menu a {
+    color: #fff ;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.2s;
+    padding: 0 0.5em;
+  }
+  
+  .social-menu a:hover {
+    color: #0072C6;
+  }
+  
+  .row {
+    float: right;
+    width: 50%;
+    padding: 30px;
+    height: 200px; 
+  }
+
+  .column {
+    margin: 0 auto;
+    width: 50%; 
+    padding: 70px;
+  }
+
+  h3 {
+    color: #fff;
+    text-align: justify;
+  }
+
+  .content {
+  max-width: 1200px;
+  width: 100%;
+  height: 200px;
+  padding: 100px;
+  margin: 0 auto;
+  color: #fff;
+  }
+
+  .content h1{
+    text-align: center;
+    padding: 60px;
+    font-size: 30px;
+
+  }
+
+  .crypto {
+    color: rgb(225, 72, 72);
+    
+  }
+
+  .programming {
+    color: aqua;
+  }
