@@ -15,6 +15,11 @@ body {
     font-family: Poppins, sans-serif;
   }
 
+  .homeH1 {
+    position: relative;
+    margin: 0 auto;
+  }
+
   .homeH1:hover {
     color: grey;
   }
@@ -24,8 +29,23 @@ body {
     color: rgb(255, 119, 0);
     }
 
+
     .rounded-image {
       border-radius: 10%;
+    }
+
+    .bg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+
+    .bg2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     }
 
   nav {
@@ -161,13 +181,13 @@ body {
   }
   
   .social-menu a:hover {
-    color: #0072C6;
+    color: grey;
   }
   
   .row {
     float: right;
     width: 50%;
-    padding: 5px;
+    padding: 50px;
     height: 200px; 
   }
 
@@ -189,13 +209,12 @@ body {
   color: #fff;
   }
 
-  .crypto {
-    color: rgb(225, 72, 72);
-    
-  }
-
   .programming {
     color: aqua;
+  }
+
+  .crypto {
+    color: rgb(255, 59, 59);
   }
 
   .informational {
@@ -204,4 +223,28 @@ body {
     margin: 0 auto;
     text-align: center;
     width: 50%;
+  }
+
+  .cvh1 {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    color: orange;
+  }
+
+  .cryptoh1 {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    color: orange;
+  }
+
+  .ArticleUST{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
   }
